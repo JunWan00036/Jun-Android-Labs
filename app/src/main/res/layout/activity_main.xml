@@ -1,31 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    android:orientation="horizontal"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:icon="@drawable/app_icon"
-    tools:context=".ui.MainActivity">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity"
+    tools:visibility="visible">
+
+    <EditText
+        android:id="@+id/myedittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hinttext"/>
 
     <TextView
-        android:id="@+id/textview"
+        android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_message"
-        />
+        android:textSize="34sp" />
 
     <Button
         android:id="@+id/mybutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="50px"
         android:text="@string/button_message"
-         />
-    <EditText
-        android:id="@+id/myedittext"
+        tools:ignore="MissingConstraints"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_massage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/hinttext"
+        android:text="Do you drink coffee?"/>
+
+    <Switch
+        android:id="@+id/mySwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you drink coffee?"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <RadioButton
+        android:id="@+id/radiobutton_massage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you drink coffee?"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_algonquin"/>
+
+    <ImageButton
+        android:id="@+id/myimagebutton"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:src="@drawable/logo_algonquin"
+        android:scaleType="fitCenter"/>
+
 </LinearLayout>

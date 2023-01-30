@@ -3,11 +3,15 @@ plugins {
 }
 
 android {
-    namespace 'com.example.myapplication'
+    namespace 'algonquin.cst2335.wan00036'
     compileSdk 33
 
+    buildFeatures{
+        viewBinding true
+
+    }
     defaultConfig {
-        applicationId "com.example.myapplication"
+        applicationId "algonquin.cst2335.wan00036"
         minSdk 24
         targetSdk 33
         versionCode 1

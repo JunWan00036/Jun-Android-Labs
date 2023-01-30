@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Jun\'s Android Labs</string>
+    <string name="hello_message">Hello world!</string>
+    <string name="editmessage">This is Jun!</string>
+    <string name="button_message">I\'m a button</string>
+    <string name="hinttext"> Write something here</string>
+    <string name="question"> How are you</string>
+
 </resources>

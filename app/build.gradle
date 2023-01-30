@@ -10,7 +10,10 @@ android {
         viewBinding true
     }
 
-    
+    buildFeatures{
+        viewBinding true
+        dataBinding  true
+    }
     defaultConfig {
         applicationId "algonquin.cst2335.wan00036"
         minSdk 22
