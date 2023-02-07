@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="my_primary">#FC86D5</color>
+    <color name="my_secondary">#00EE5B</color>
+    <color name="my_statusbar">#B37100</color>
+    <color name="my_text">#ED0A0A</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Jun\'s Android Labs</string>
+    <string name="button_message">I\'m a button</string>
+    <string name="editmessage">This is Jun!</string>
+    <string name="hello_message">Hello world!</string>
+    <string name="hinttext"> Write something here</string>
+    <string name="question"> How are you</string>
+    <style name="Theme.JunsAndroidLabs" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/my_primary</item>
+        <item name="android:textColor">@color/my_text</item>
+
+        <item name="colorSecondary">@color/my_secondary</item>
+
+        <item name="android:statusBarColor">@color/my_statusbar</item>
+        
+    </style>
+</resources>
