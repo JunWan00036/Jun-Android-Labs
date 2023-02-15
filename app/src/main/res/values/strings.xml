@@ -2,4 +2,10 @@
     <string name="app_name">Jun\'s Android Labs</string>
     <string name="hello_message">Hello world!</string>
     <string name="button_message">I\'m a button</string>
+    <string name="email_message">Please input your Email Address</string>
+    <string name="password">Please input your password</string>
+    <string name="call_message">Please call me</string>
+    <string name="change_message">Change Message</string>
+    <string name="text_message">Text Message</string>
+
 </resources>

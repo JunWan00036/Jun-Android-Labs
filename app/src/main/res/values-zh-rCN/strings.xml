@@ -3,4 +3,9 @@
     <string name="app_name">Jun\'s Android Labs</string>
     <string name="hello_message">欢迎</string>
     <string name="button_message">这是按钮</string>
+    <string name="email_message">请输入你的电邮</string>
+    <string name="password">请输入你的密码</string>
+    <string name="call_message">给我打电话</string>
+    <string name="change_message">改变信息</string>
+    <string name="text_message">信息内容</string>
 </resources>
