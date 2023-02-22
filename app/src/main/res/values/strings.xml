@@ -2,4 +2,6 @@
     <string name="app_name">Jun\'s Android Labs</string>
     <string name="hello_message">Hello world!</string>
     <string name="button_message">I\'m a button</string>
+    <item name="message" type="id">HiMessage</item>
+    <item name="time" type="id">Time is money</item>
 </resources>
