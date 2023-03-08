@@ -26,3 +26,12 @@ public class ChatMessage {
         return isSentButton;
     }
 }
+@Entity
+public class ChatMessage {
+    @ColumnInfc(name = "message")
+    protected String message;
+    @ColumnInfc(name = "TimeSent")
+    protected String timeSent;|
+    @ColumnInfc(name = "SendOrReceive")
+    protected int sendOrReceive;
+}
