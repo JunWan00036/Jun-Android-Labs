@@ -2,6 +2,14 @@
     <string name="app_name">Jun\'s Android Labs</string>
     <string name="hello_message">Hello world!</string>
     <string name="button_message">I\'m a button</string>
-    <item name="message" type="id">HiMessage</item>
-    <item name="time" type="id">Time is money</item>
+    <string name="message">HiMessage</string>
+    <string name="time" >Time is money</string>
+    <string name="enterpassword">Passowrd</string>
+    <string name="type_here">type here</string>
+    <string name="button">Button</string>
+    <string name="message_goes_here1">message1</string>
+    <string name="message_goes_here">message</string>
+    <string name="time_goes_here">time</string>
+    <string name="hello">hello</string>
+
 </resources>
