@@ -1,63 +1,6 @@
 package algonquin.cst2335.wan00036.chatRoom;
 
-/*
-import android.os.Bundle;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
-
-import algonquin.cst2335.wan00036.databinding.ActivityChatRoomBinding;
-
-public class ChatRoom extends AppCompatActivity {
-    ActivityChatRoomBinding binding;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        binding=ActivityChatRoomBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
-        binding.theRecycleView.setAdapter(new RecyclerView.Adapter<MyRowHolder>() {
-            @NonNull
-            @Override
-            public MyRowHolder onCreateViewHolder(@NonNull ViewGroup parent,int viewType){
-                return null;
-            }
-           */
-/* public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-                return null;
-            }*//*
-
-
-            @Override
-            public void onBindViewHolder(@NonNull MyRowHolder holder, int position) {
-
-            }
-
-            @Override
-            public int getItemCount() {
-                return 0;
-            }
-        });
-
-
-
-
-    }
-    class MyRowHolder extends RecyclerView.ViewHolder{
-
-        public TextView messageText;
-        public TextView timeText;
-        public MyRowHolder(@NonNull View itemView) { //itemView will the the root of the layout, ConstraintLayout
-            super(itemView);
-            messageText = itemView.findViewById(R.id.message);
-            timeText = itemView.findViewById(R.id.time);
-        }
-    }
-    }
-*/
 
 import android.os.Bundle;
 import android.view.View;
@@ -107,7 +50,9 @@ public class ChatRoom extends AppCompatActivity {
             @Override
             public MyRowHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-                if(messages.get(messages.size()-1).isSentButton()){
+                //if(messages.get(messages.size()-1).isSentButton()){
+                int ViewType;
+                if(viewType==0){
                     //always inflates Sent_message.xml
                     SentMessagesBinding sentMessageBinding = SentMessagesBinding.inflate(getLayoutInflater(),
                             parent, false);
@@ -197,7 +142,7 @@ public class ChatRoom extends AppCompatActivity {
 //As for a String representing the time receive
 
 
-        binding.sendButton.setOnClickListener(click->{
+        binding.receiveButton.setOnClickListener(click->{
 
 
             String text=binding.editText.getText().toString();

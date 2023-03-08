@@ -6,7 +6,7 @@
         android:textAlignment="textEnd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="time goes here"
+        android:text="@string/message_goes_here"
         android:textSize="11sp"
         android:layout_weight="2"
 

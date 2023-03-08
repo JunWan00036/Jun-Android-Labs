@@ -6,10 +6,12 @@
     <string name="time" >Time is money</string>
     <string name="enterpassword">Passowrd</string>
     <string name="type_here">type here</string>
-    <string name="button">Button</string>
+    <string name="button">Send</string>
+    <string name="receive">Receive</string>
     <string name="message_goes_here1">message1</string>
     <string name="message_goes_here">message</string>
     <string name="time_goes_here">time</string>
     <string name="hello">hello</string>
+
 
 </resources>
